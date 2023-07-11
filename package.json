@@ -1,0 +1,15 @@
+{
+  "name": "discord-always-typing-troll",
+  "version": "1.0.0",
+  "description": "Small program for infinite typing status",
+  "author": "Сорок два",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.12",
+    "prompt": "^1.3.0"
+  }
+}
