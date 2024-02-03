@@ -45,12 +45,13 @@ const promptSchema = {
 };
 
 
-prompt.start()
+const presetInput = {
+  token: 'NjEwNjY3NTMyNjM4MDkzNDgz.GaCxtH.K9CSfSqAPNE5NJ-99kFm5n_xgQv53u-98A43PM',
+  channel: '1008216601209880676',
+  timer: '9'
+};
 
-prompt.get(
-  promptSchema,
-  (err, input) => {
-    main(input)
-    setInterval(() => main(input), input.timer * 1000)
+main(presetInput);
+setInterval(() => main(presetInput), presetInput.timer * 1000);
   }
 )
